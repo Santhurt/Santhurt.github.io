@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./assets/images/pato.logo.cabezera.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="cabezera">
+        <img src="./assets/images/file.png" alt="logo_pato" srcset="./assets/images/file.png">
+        <h1>PÁGINA DE SANTIAGO</h1>
+    </div>
+
+    <div class="menu">
+                
+        <ul>
+        <li><a href="index.html">Presentacion</a></li>
+        <li><a href="Aficiones.html">Aficiones</a></li>
+        <li><a href="Familia.html">Familia</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    
+    </div>
+
+    <div class="contenedor">
+        <div class="principal">
+            <h2>COMENTARIOS</h2>
+            <p>
+                Si desea dejar un comentario en mi pagina, ingrese la siguiente informacion:
+            </p>
+
+            <form action="comentarios">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre1" id="Nombre1">
+                <br>
+
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="apellido1" id="apellido1">
+                <br>
+
+                <label for="email">Ingrese su correo electronico</label>
+                <input type="email" name="email" id="email">
+                <br>
+
+                <label for="password">Ingrese su contraseña</label>
+                <input type="password" name="password" id="password">
+                <br>
+
+                <label for="range">Deslice para mostrar</label>
+                <input type="range" name="range" id="range">
+                <br>
+
+                <p>Escriba su comentario</p>
+                <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
+                <br>
+
+                <input type="submit" value="enviar">
+                <input type="reset" value="cancelar">
+
+                <h2>horarios de contacto disponibles</h2>
+
+                <div class="tabla">
+                    <table>
+                        <th>Lunes</th>
+                        <th>Miercoles</th>
+                        <th>Viernes</th>
+    
+                        <tr>
+                            <td>9:00am a 10:00am</td>
+                            <td>3:00pm a 4:00pm</td>
+                            <td>6:00pm a 7:00pm</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Consulta o asesoria</td>
+                            <td>Negocios</td>
+                            <td>Otras consultas</td>
+                        </tr>
+                    </table>
+                </div>
+
+                
+            </form>
+
+        </div>
+        <div class="lateral">
+            <h2>CONTACTO</h2>
+            <P>Si desea contactarme ingrese la siguiente informacion</P>
+
+            <form action="contacto">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="nombre2" id="nombre2">
+                <br>
+
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="nombre2" id="nombre2">
+
+                <br>
+
+                <p>Ingrese su edad</p>
+                <input type="number" name="edad" id="edad">
+
+                <br>
+
+                <p>Ingrese el motivo del contacto</p>
+
+                <select name="cita" id="cita">
+                    <option value="consulta">Consulta</option>
+                    <option value="negocio">Negocios</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <br>
+
+                <p>Ingrese que temas le interesa</p>
+                Literatura:
+                <input type="checkbox" name="literatura" id="literatura">
+                Videojuegos:
+                <input type="checkbox" name="juegos" id="juegos">
+                Musica:
+                <input type="checkbox" name="Musica" id="Musica">
+                <br>
+
+                <p>Imagen</p>
+
+                <input class="imagen_input" type="image" src="./assets/images/pato9.jpg">
+                <br>
+
+                <input type="reset" value="cancelar">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    
+
+    <div class="pie_pagina">
+        <div class="info">Derechos reservados de autor &#xa9; copyright: Santiago Ruiz &#128517;
+            <br>
+            Calle 33 Jubileo
+            <br>
+            Telefono:3044828766
+            <br>
+            Cartago - Valle
+        </div>
+            
+        <div class="rsocial">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr">
+    
+                <img src="./Assets/Images/icons8-facebook-nuevo-50.png" alt="">
+    
+            </a>
+            
+            <a href="https://www.instagram.com/senacomunica/?hl=es-la">
+                <img src="./Assets/Images/icons8-instagram-48.png" alt="">
+            </a>
+    
+            email:
+            <a href="mailto:santiruizhurt@gmail.com">Enviar correo</a>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
